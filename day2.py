@@ -2,8 +2,8 @@
 # Streak day 2
 
 # Variables
-message = "Hello again, world!"
-count = 2
+message = "Hello again, from kunal!"
+count = 20
 pi_approx = 3.14
 is_learning = True
 
@@ -27,7 +27,10 @@ print("sum_result:", sum_result)
 # print(f"Nice to meet you, {name}!")
 
 # Exercises (try these):
-# 1) Create two variables a and b, assign numbers, and print their product.
+# 1) Create two variables a and b, assign numbers, and print their product. 
+a = 10 
+b = 10 
+print(a + b)
 # 2) Convert a float to an int and observe the result.
 # 3) Create a boolean variable and use it in an if statement to print a message.
 
