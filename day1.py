@@ -9,3 +9,7 @@ print(10 / 2) # Divison
 print(10 % 3) # Remainder
 print(3 ** 2) #
 print(3 // 2) #
+
+print(type(10)) # int 
+print(type(3.14)) # Float
+print(type("kunal")) # string 
