@@ -7,9 +7,16 @@ y = float(input("what is y? "))
 z = round(x/y,2)
 print(z)
 # def function 
+#def main():
+ #   name = input("what your name ")
+  #  hello(name)
+#def hello(to = "world"):
+#          print("hello,",to)
+#main()
+# square root number
 def main():
-    name = input("what your name ")
-    hello(name)
-def hello(to = "kunal"):
-          print("hello,",to)
+    x = int(input("x "))
+    def square(n):
+        return n*n
+    print("x squared is",square(x))
 main()
