@@ -13,10 +13,20 @@ print(z)
 #def hello(to = "world"):
 #          print("hello,",to)
 #main()
+#=======================================================
 # square root number
-def main():
+def main2():
     x = int(input("x "))
     def square(n):
-        return n*n
+        return n**2
     print("x squared is",square(x))
-main()
+main2()
+#=======================================================
+# cube root 
+def main3():
+    y = int(input("y "))
+    def cube(n):
+        return pow(n,3)
+    print("y is cube to ",cube(y))
+main3()
+
