@@ -39,7 +39,7 @@ print(f)
 #slicing
 language = "Application"
 first_3 = language[0:3]
-last_3 = language[8:10]
+last_3 = language[8:11]
 print(first_3)
 print(last_3)
 
