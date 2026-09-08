@@ -26,4 +26,14 @@ print(len(letter))
 greeting = 'hello, world!'
 print("greeting")
 print(len(greeting))
+#----------------------------------------------------------- 
+language = "python"
+a, b, c, d, e, f = language
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+#---------------------------------------------------------- 
 
