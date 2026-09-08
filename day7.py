@@ -36,4 +36,10 @@ print(d)
 print(e)
 print(f)
 #---------------------------------------------------------- 
+#slicing
+language = "Application"
+first_3 = language[0:3]
+last_3 = language[8:10]
+print(first_3)
+print(last_3)
 
