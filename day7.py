@@ -19,3 +19,11 @@ print('age')
 print('skills')
 print('student:',is_student) 
 #print('person_info:',person_info)
+#-------------------------------------------------------------
+letter = "A"
+print('letter')
+print(len(letter))
+greeting = 'hello, world!'
+print("greeting")
+print(len(greeting))
+
