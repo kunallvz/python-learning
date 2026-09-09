@@ -37,9 +37,24 @@ print(e)
 print(f)
 #---------------------------------------------------------- 
 #slicing
-language = "Application"
+language = input("what word ")
 first_3 = language[0:3]
 last_3 = language[8:11]
 print(first_3)
 print(last_3)
+#-------------------------------------------------------- 
+word = input("word wt is ")
+p = word[0:3:2]
+print(p)
+#-------------------------------------------------------- 
+radius = 10
+pi = 3.14
+area = pi
+result = "the area of circle with {} is {}".format(str(radius),str(area))
+print(result)
+#----------------------------------------------------------- 
+num = '10'
+print(num.isdecimal())
+num = "10.5"
+print(num.isdecimal())
 
