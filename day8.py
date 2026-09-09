@@ -26,4 +26,39 @@ del fruits[1]
 print(fruits)
 del fruits[2]
 print(fruits)# error expected 
+#---------------------------------------------------- 
+# clear
+fruits = ['Banana','Apple','orange','Mango']
+fruits.clear()
+print(fruits)
+#---------------------------------------------------- 
+#join
+pos_num = [1,2,3,4,5]
+zero = [0]
+nev_num = [-5,-4, -3, -2, -1]
+integers = nev_num + zero + pos_num
+print(integers)
+#--------------------------------+----------------\
+# join with extend 
+num1 = [0,1,2,3]
+num2 = [4,5,6,7]
+num1.extend(num2)
+print("Numbers:", num1)
+#--------------------------------------------------f 
+#count 
+fruits = ['Banana','Apple','orange','Mango']
+fruits.append('orange')
+print(fruits)
+print(fruits.count('orange'))
+#-----------------------------------------            
+fruits = ['Banana', 'Apple', 'orange', 'Mango', 'Strawberry']
+fruits.reverse()
+print(fruits.reverse())
+#-------------------------------------------        n 
+#sort 
+fruits = ['Banana', 'Apple', 'orange', 'Mango', 'Strawberry']
+fruits.sort()
+print(fruits)
+fruits.sort(reverse=True)
+print(fruits)
 
