@@ -14,12 +14,11 @@ fruits.insert(2,'lime')
 print(fruits)
 #-------------------------------------------- 
 # remove 
-#fruits = ['Banana','Apple','orange','Mango']
-#fruits.remove()
-#print(fruits)
-
-#fruits.remove(0)
-#print(fruits)
+fruits = ['Banana','Apple','orange','Mango']
+fruits.remove('Apple')
+print(fruits)
+fruits.remove("Mango")
+print(fruits)
 #del --------------------------------------------- 
 fruits = ['Banana','Apple','orange','Mango']
 del fruits[1]
