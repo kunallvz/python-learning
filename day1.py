@@ -12,4 +12,8 @@ print(3 // 2) #
 
 print(type(10)) # int 
 print(type(3.14)) # Float
-print(type("kunal")) # string 
+print(type("kunal")) # string
+
+name = input('what is your fav characyer name')
+print(name)
+
