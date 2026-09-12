@@ -36,5 +36,27 @@ for n in range(1, 10):
 
 # Exercises:
 # 1) Write a loop that computes the sum of numbers from 1 to 100.
+total_sum = 0
+for i in range(1,101):
+    total_sum += i
+    print("the numver is :",total_sum)
 # 2) Use if/elif/else to print whether a number is negative, zero, or positive.
+number = int(input("nunber if choice")) 
+if number > 0:
+    print("the number is positive")
+elif number == 0:
+    print("the number is zero")
+else:
+    print("the number is negative")
 # 3) Write a function that checks whether a given number is prime and use it to find primes between 10 and 30.
+#def is_prime(n):
+#   if n <= 1:
+#       return False
+#for i in range(2, int(n**0.5)+1):
+#    if n % i == 0:
+#        return False
+#return True
+#print("the numbers btw 10 and 30: ")
+#for num in range(10, 31):
+#    if is_prime(num):
+#        print(num, end=" ")
