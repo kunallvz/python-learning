@@ -28,9 +28,19 @@ print("sum_result:", sum_result)
 
 # Exercises (try these):
 # 1) Create two variables a and b, assign numbers, and print their product. 
-a = int(input("what is number a" ))
-b = int(input("what is number b" ))
-print(a + b)
-# 2) Convert a float to an int and observe the result.
-# 3) Create a boolean variable and use it in an if statement to print a message.
+a = 5
+b = 10
+print("Sum of a and b:", a + b)
+print("Product of a and b:", a * b)
 
+# 2) Convert a float to an int and observe the result.
+float_num = 3.99
+int_num = int(float_num)
+print(f"Float {float_num} converted to int: {int_num}")
+
+# 3) Create a boolean variable and use it in an if statement to print a message.
+is_active = True
+if is_active:
+    print("User is active!")
+else:
+    print("User is not active")
