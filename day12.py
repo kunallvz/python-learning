@@ -389,7 +389,18 @@ def factorial(n):
 
 print(factorial(5))
 # Challenge 2: Create a function with *args to find max value
+def find_max(*args):
+    return max(args)
+
+
+print(find_max(10, 25, 7, 42, 18))
 # Challenge 3: Use map to convert a list of strings to integers
+numbers = ["10", "20", "30", "40", "50"]
+
+numbers = list(map(int, numbers))
+
+print(numbers) 
+
 # Challenge 4: Use filter to get numbers divisible by 3
 # Challenge 5: Create a function that returns a function
 # Challenge 6: Use lambda to sort a list of tuples
