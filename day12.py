@@ -500,3 +500,5 @@ print(area("triangle", 10, 4))
 
 
 print("✓ Day 12 completed!")
+print("i have spend my enture day on this file hope it helps")
+print("I m proud of myself")
