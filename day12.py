@@ -402,7 +402,23 @@ numbers = list(map(int, numbers))
 print(numbers) 
 
 # Challenge 4: Use filter to get numbers divisible by 3
+numbers = [1, 3, 6, 8, 10, 12, 15, 17, 20]
+
+divisible_by_3 = list(filter(lambda x: x % 3 == 0, numbers))
+
+print(divisible_by_3)
 # Challenge 5: Create a function that returns a function
+def create_multiplier(number):
+
+    def multiply(x):
+        return x * number
+
+    return multiply
+
+
+double = create_multiplier(2)
+
+print(double(10))
 # Challenge 6: Use lambda to sort a list of tuples
 # Challenge 7: Create a decorator that prints execution time
 # Challenge 8: Create a function that calculates area of shapes
