@@ -378,6 +378,16 @@ print()
 # ============================================================
 
 # Challenge 1: Create a function that returns factorial
+def factorial(n):
+    result = 1
+
+    for i in range(1, n + 1):
+        result *= i
+
+    return result
+
+
+print(factorial(5))
 # Challenge 2: Create a function with *args to find max value
 # Challenge 3: Use map to convert a list of strings to integers
 # Challenge 4: Use filter to get numbers divisible by 3
