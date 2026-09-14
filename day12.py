@@ -420,7 +420,83 @@ double = create_multiplier(2)
 
 print(double(10))
 # Challenge 6: Use lambda to sort a list of tuples
+students = [
+    ("Kunal", 85),
+    ("Aman", 72),
+    ("Rahul", 91),
+    ("Riya", 78)
+]
+
+students.sort(key=lambda student: student[1])
+
+print(students)
 # Challenge 7: Create a decorator that prints execution time
+import time
+
+
+def execution_time(func):
+
+    def wrapper():
+        start = time.time()
+
+        func()
+
+        end = time.time()
+
+        print("Execution time:", end - start, "seconds")
+
+    return wrapper
+
+
+@execution_time
+def my_function():
+
+    total = 0
+
+    for i in range(1000000):
+        total += i
+
+    print("Calculation completed")
+
+
+my_function()
+
 # Challenge 8: Create a function that calculates area of shapes
+def area(shape, *dimensions):
+
+    if shape == "circle":
+
+        radius = dimensions[0]
+
+        return 3.14159 * radius ** 2
+
+    elif shape == "rectangle":
+
+        length = dimensions[0]
+        width = dimensions[1]
+
+        return length * width
+
+    elif shape == "triangle":
+
+        base = dimensions[0]
+        height = dimensions[1]
+
+        return 0.5 * base * height
+
+    else:
+
+        return "Unknown shape"
+
+
+print(area("circle", 5))
+# Output: 78.53975
+
+print(area("rectangle", 10, 5))
+# Output: 50
+
+print(area("triangle", 10, 4))
+# Output: 20
+
 
 print("✓ Day 12 completed!")
