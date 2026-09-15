@@ -345,6 +345,36 @@ movie = Movie("Interstellar", "Christopher Nolan", 2014)
 
 print(movie)
 # Challenge 3: Create a Library class with add/remove books
+class Library:
+    def __init__(self):
+        self.books = []
+
+    def add_book(self, book):
+        self.books.append(book)
+        print(f"{book} added.")
+
+    def remove_book(self, book):
+        if book in self.books:
+            self.books.remove(book)
+            print(f"{book} removed.")
+        else:
+            print(f"{book} not found.")
+
+    def show_books(self):
+        print("Books:", self.books)
+
+
+library = Library()
+
+library.add_book("Harry Potter")
+library.add_book("The Hobbit")
+library.add_book("1984")
+
+library.show_books()
+
+library.remove_book("The Hobbit")
+
+library.show_books()
 # Challenge 4: Create a Temperature class with C to F conversion
 # Challenge 5: Create a Circle class with area and circumference
 # Challenge 6: Create a Person class with age validation
