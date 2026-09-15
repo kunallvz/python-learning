@@ -331,6 +331,19 @@ print("Name:", student.name)
 print("Total:", student.total_marks())
 print("Average:", student.average_marks())
 # Challenge 2: Create a Movie class with __str__ method
+class Movie:
+    def __init__(self, title, director, year):
+        self.title = title
+        self.director = director
+        self.year = year
+
+    def __str__(self):
+        return f"{self.title} directed by {self.director} ({self.year})"
+
+
+movie = Movie("Interstellar", "Christopher Nolan", 2014)
+
+print(movie)
 # Challenge 3: Create a Library class with add/remove books
 # Challenge 4: Create a Temperature class with C to F conversion
 # Challenge 5: Create a Circle class with area and circumference
