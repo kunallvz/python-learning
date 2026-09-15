@@ -313,6 +313,23 @@ print()
 # ============================================================
 
 # Challenge 1: Create a Student class with marks calculation
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def total_marks(self):
+        return sum(self.marks)
+
+    def average_marks(self):
+        return self.total_marks() / len(self.marks)
+
+
+student = Student("Kunal", [80, 75, 90, 85, 70])
+
+print("Name:", student.name)
+print("Total:", student.total_marks())
+print("Average:", student.average_marks())
 # Challenge 2: Create a Movie class with __str__ method
 # Challenge 3: Create a Library class with add/remove books
 # Challenge 4: Create a Temperature class with C to F conversion
