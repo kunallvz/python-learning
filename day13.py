@@ -376,6 +376,18 @@ library.remove_book("The Hobbit")
 
 library.show_books()
 # Challenge 4: Create a Temperature class with C to F conversion
+class Temperature:
+    def __init__(self, celsius):
+        self.celsius = celsius
+
+    def to_fahrenheit(self):
+        return (self.celsius * 9 / 5) + 32
+
+
+temp = Temperature(25)
+
+print("Celsius:", temp.celsius)
+print("Fahrenheit:", temp.to_fahrenheit())
 # Challenge 5: Create a Circle class with area and circumference
 # Challenge 6: Create a Person class with age validation
 # Challenge 7: Create an Employee class with salary calculation
