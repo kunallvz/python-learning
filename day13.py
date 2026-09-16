@@ -439,5 +439,39 @@ print("Employee:", employee.name)
 print("Monthly Salary:", employee.monthly_salary)
 print("Annual Salary:", employee.annual_salary())
 # Challenge 8: Create a To-Do class with add/remove tasks
+class Todo:
+    def __init__(self):
+        self.tasks = []
 
+    def add_task(self, task):
+        self.tasks.append(task)
+        print(f"Added: {task}")
+
+    def remove_task(self, task):
+        if task in self.tasks:
+            self.tasks.remove(task)
+            print(f"Removed: {task}")
+        else:
+            print(f"Task not found: {task}")
+
+    def show_tasks(self):
+        if self.tasks:
+            print("Tasks:")
+            for task in self.tasks:
+                print("-", task)
+        else:
+            print("No tasks.")
+
+
+todo = Todo()
+
+todo.add_task("Learn Python")
+todo.add_task("Practice OOP")
+todo.add_task("Push code to GitHub")
+
+todo.show_tasks()
+
+todo.remove_task("Practice OOP")
+
+todo.show_tasks()
 print("✓ Day 13 completed!")
