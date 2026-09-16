@@ -389,6 +389,24 @@ temp = Temperature(25)
 print("Celsius:", temp.celsius)
 print("Fahrenheit:", temp.to_fahrenheit())
 # Challenge 5: Create a Circle class with area and circumference
+import math
+
+
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return math.pi * self.radius ** 2
+
+    def circumference(self):
+        return 2 * math.pi * self.radius
+
+
+circle = Circle(5)
+
+print("Area:", circle.area())
+print("Circumference:", circle.circumference())
 # Challenge 6: Create a Person class with age validation
 # Challenge 7: Create an Employee class with salary calculation
 # Challenge 8: Create a To-Do class with add/remove tasks
