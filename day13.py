@@ -424,6 +424,20 @@ person = Person("Kunal", 20)
 print("Name:", person.name)
 print("Age:", person.age)
 # Challenge 7: Create an Employee class with salary calculation
+class Employee:
+    def __init__(self, name, monthly_salary):
+        self.name = name
+        self.monthly_salary = monthly_salary
+
+    def annual_salary(self):
+        return self.monthly_salary * 12
+
+
+employee = Employee("Kunal", 30000)
+
+print("Employee:", employee.name)
+print("Monthly Salary:", employee.monthly_salary)
+print("Annual Salary:", employee.annual_salary())
 # Challenge 8: Create a To-Do class with add/remove tasks
 
 print("✓ Day 13 completed!")
