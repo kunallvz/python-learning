@@ -408,6 +408,21 @@ circle = Circle(5)
 print("Area:", circle.area())
 print("Circumference:", circle.circumference())
 # Challenge 6: Create a Person class with age validation
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.set_age(age)
+
+    def set_age(self, age):
+        if age < 0:
+            raise ValueError("Age cannot be negative.")
+        self.age = age
+
+
+person = Person("Kunal", 20)
+
+print("Name:", person.name)
+print("Age:", person.age)
 # Challenge 7: Create an Employee class with salary calculation
 # Challenge 8: Create a To-Do class with add/remove tasks
 
