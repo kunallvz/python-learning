@@ -25,4 +25,10 @@ if age >= 18:
     print("You can vote")
 else:
     print("You cannot vote")
+#--------------------------------------- 
+marks = int(input("Enter your marks: "))
 
+if marks >= 40:
+    print("Pass")
+else:
+    print("Fail") 
