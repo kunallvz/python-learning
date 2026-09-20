@@ -4,3 +4,11 @@ numbers = [3, 1, 4, 1, 5]
 print("Original:", numbers)
 print("Sorted:", sorted(numbers))
 print("Total:", sum(numbers))
+#--------------------------------- 
+num = int(input("Enter a number: "))
+
+if num >= 0:
+    print("Positive")
+else:
+    print("Negative")
+#---------------------------------To
