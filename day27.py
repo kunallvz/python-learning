@@ -34,3 +34,13 @@ student = {
 print("Name:", student["name"])
 print("Age:", student["age"])
 print("City:", student["city"]) 
+#------------------------------- 
+# 1. Create and display a dictionary
+student = {
+    "name": "Rahul",
+    "age": 15,
+    "class": 10
+}
+
+print(student) 
+
