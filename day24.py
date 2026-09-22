@@ -33,3 +33,5 @@ if name in phone_book:
     print("Phone number:", phone_book[name])
 else:
     print("Name not found") 
+#------------ 
+print("dictionary") 
