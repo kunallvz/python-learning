@@ -42,5 +42,15 @@ student = {
     "class": 10
 }
 
-print(student) 
+print(student)
+#------------------------------------- 
+# 4. Delete an item from a dictionary
+student = {
+    "name": "Aman",
+    "age": 16,
+    "class": 10
+}
 
+del student["age"]
+
+print(student)
