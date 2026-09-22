@@ -96,4 +96,8 @@ else:
     else:
         print("Not prime")
 #--------------------------------- 
+# 8. Reverse a string
+text = input("Enter a word: ")
 
+reverse = text[::-1]
+print("Reversed:", reverse)
