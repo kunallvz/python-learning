@@ -61,3 +61,12 @@ if a > b:
     print(a, "is larger")
 else:
     print(b, "is larger")
+#--------------------------------+ 
+# 5. Find the largest of three numbers
+a = 15
+b = 25
+c = 10
+
+largest = max(a, b, c)
+print("Largest number:", largest)
+
