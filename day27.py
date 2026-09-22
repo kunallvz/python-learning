@@ -23,3 +23,14 @@ student["class"] = 10
 student["age"] = 16
 
 print(student) 
+#---------------------- 
+# 3. Access values from a dictionary
+student = {
+    "name": "Rahul",
+    "age": 15,
+    "city": "Delhi"
+}
+
+print("Name:", student["name"])
+print("Age:", student["age"])
+print("City:", student["city"]) 
