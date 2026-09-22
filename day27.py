@@ -54,3 +54,15 @@ student = {
 del student["age"]
 
 print(student)
+#---------------------------------- 
+# 5. Check if a key exists in a dictionary
+student = {
+    "name": "Aman",
+    "age": 16,
+    "class": 10
+}
+
+if "name" in student:
+    print("Name is present in the dictionary")
+else:
+    print("Name is not present") 
