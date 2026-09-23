@@ -56,3 +56,13 @@ phone2 = Mobile("Apple", 50000)
 
 phone1.details()
 phone2.details()
+#+----------------------------- 
+numbers = [12, 45, 7, 89, 34, 21]
+
+largest = numbers[0]
+
+for number in numbers:
+    if number > largest:
+        largest = number
+
+print("Largest number:", largest)
