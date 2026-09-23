@@ -66,3 +66,14 @@ for number in numbers:
         largest = number
 
 print("Largest number:", largest)
+#-----------+------------------ 
+secret = 7
+
+guess = int(input("Guess the number (1-10): "))
+
+if guess == secret:
+    print("Correct! 🎉")
+elif guess < secret:
+    print("Too low!")
+else:
+    print("Too high!") 
