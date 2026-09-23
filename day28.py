@@ -28,4 +28,17 @@ class Student:
 student1 = Student("Kunal", 75)
 student1.result()
 #-------------------------------- 
+class BankAccount:
+    def __init__(self, name, balance):
+        self.name = name
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+        print("New balance:", self.balance)
+
+
+account1 = BankAccount("Kunal", 5000)
+account1.deposit(2000)
+#------------------------------------ 
 
