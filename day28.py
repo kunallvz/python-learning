@@ -41,4 +41,18 @@ class BankAccount:
 account1 = BankAccount("Kunal", 5000)
 account1.deposit(2000)
 #------------------------------------ 
+class Mobile:
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
 
+    def details(self):
+        print("Brand:", self.brand)
+        print("Price:", self.price)
+
+
+phone1 = Mobile("Samsung", 25000)
+phone2 = Mobile("Apple", 50000)
+
+phone1.details()
+phone2.details()
